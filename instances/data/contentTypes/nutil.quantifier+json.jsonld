@@ -2,6 +2,10 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
+  "description": {
+      "type": "string",
+      "_instruction": "This JSON file is an output file of the Nutil software. It contains information about the coordinates of the points segmented and quantified using the Nutil Quantifier feature.This file format is compatible with the MeshView tool for visualisation of 3D point clouds."
+    },
   "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.nutil.quantifier+json",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
