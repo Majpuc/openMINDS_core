@@ -2,7 +2,11 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.quicknii+json",
+  "description": {
+      "type": "string",
+      "_instruction": "This JSON file is an input/output file for the QuickNII software. It contains information about the image series and linear alignment."
+    },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.quicknii+json",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
     ".json"
