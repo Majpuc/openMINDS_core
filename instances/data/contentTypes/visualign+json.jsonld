@@ -2,7 +2,11 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.visualign+json",
+  "description": {
+      "type": "string",
+      "_instruction": "This JSON file is an input/output file for the VisuAlign software. It contains information about the image series and linear and nonlinear alignment."
+    },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.visualign+json",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
     ".json"
