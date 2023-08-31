@@ -2,7 +2,11 @@
   "@context": {
     "@vocab": "https://openminds.ebrains.eu/vocab/"
   },
-  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application/vnd.quicknii.flat",
+  "description": {
+      "type": "string",
+      "_instruction": "This flat file is an output file of the QuickNII software. It contains atlas overlays in binary files.Read more on https://www.nitrc.org/plugins/mwiki/index.php?title=quicknii:Flat_file_format"
+    },
+  "@id": "https://openminds.ebrains.eu/instances/contentTypes/application_vnd.quicknii.flat",
   "@type": "https://openminds.ebrains.eu/core/ContentType",
   "fileExtension": [
     ".flat"
